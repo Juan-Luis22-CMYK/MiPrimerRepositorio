@@ -73,3 +73,48 @@ body{
     padding: 50px 0;
     border-radius: 25px;
 }
+.games a{
+    color: white;
+}
+.chart{
+    background-color: blue;
+    width: 20%;
+    max-width: 200px;
+    margin:10px auto;
+    padding: 10px 0;
+   border-radius: 50px;
+}
+
+.chart-0{
+     background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 50px 0;
+    border-radius: 25px;
+}
+
+.img-games img{
+    width: 200px;
+    border-radius: 25px;
+}
+
+.boton {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    padding: 15px;
+    background: #4CAF50;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+ .text {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+} 
