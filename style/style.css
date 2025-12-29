@@ -1,24 +1,27 @@
-body{
+body {
     background: linear-gradient(to right, rgba(95, 0, 190), black, rgb(95, 0, 190));
     margin: 0;
 }
 
-.header{
+.header {
     background: linear-gradient(to right, purple, rgb(76, 1, 77));
 }
-.header h1{
+
+.header h1 {
     color: white;
     text-align: center;
     margin: 0;
     padding-top: 25px;
     font-size: 50px;
 }
-.header p{
+
+.header p {
     color: white;
     text-align: center;
     font-size: 25px;
 }
-.menu{
+
+.menu {
     padding: 0;
     background: rgb(93, 51, 101);
     width: 90%;
@@ -26,46 +29,59 @@ body{
     margin: auto;
     text-align: center;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
-.menu li{
+
+.menu li {
     display: inline-block;
     text-align: center;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     gap: 30px;
     margin-top: 40px;
 }
-.games{
+
+.games {
+    display: flex;
     background-color: #2b2b2b;
     color: white;
     width: 350px;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+
 }
-.games h3{
+
+.games h3 {
     margin: 10px 0;
     color: white;
 }
-.games p{
+
+.games p {
     font-size: 14px;
     line-height: 1.5;
     color: #d3d3d3;
 }
-.games img{
+
+.games img {
+    display: flex;
+    justify-content: center;
     width: 120px;
     border-radius: 15px;
     margin-bottom: 10px;
+
 }
-.background-container{
+
+.background-container {
     background-color: white;
     width: 80%;
     max-width: 900px;
@@ -73,28 +89,32 @@ body{
     padding: 50px 0;
     border-radius: 25px;
 }
-.games a{
+
+.games a {
     color: white;
 }
-.chart{
+
+.chart {
     background-color: blue;
     width: 20%;
     max-width: 200px;
-    margin:10px auto;
+    margin: 10px auto;
     padding: 10px 0;
-   border-radius: 50px;
+    border-radius: 50px;
 }
 
-.chart-0{
-     background-color: white;
+.chart-0 {
+    background-color: white;
     width: 80%;
     max-width: 900px;
     margin: 50px auto;
     padding: 50px 0;
     border-radius: 25px;
+    display: flex;
+    gap: 20px;
 }
 
-.img-games img{
+.img-games img {
     width: 200px;
     border-radius: 25px;
 }
@@ -113,8 +133,8 @@ body{
     text-decoration: none;
 }
 
- .text {
+.text {
     width: 100%;
     font-size: 18px;
     font-weight: bold;
-} 
+}
